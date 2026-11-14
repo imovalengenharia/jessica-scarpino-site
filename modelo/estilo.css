@@ -281,6 +281,10 @@ p{margin:0 0 1em}
   .abre-menu{display:inline-grid}
   .menu{position:fixed;inset:0 0 0 auto;width:min(320px,86vw);flex-direction:column;gap:6px;padding:90px 30px 30px;background:var(--cacau);font-size:1.1rem;transform:translateX(100%);transition:transform .3s;box-shadow:-20px 0 40px rgba(0,0,0,.3)}
   .menu.aberto{transform:none}
+  /* o desfoque do topo prenderia o menu à altura do topo: no celular, topo sólido */
+  .topo.rolou{backdrop-filter:none;-webkit-backdrop-filter:none;background:var(--cacau)}
+  .menu{height:100vh;height:100dvh;overflow-y:auto;z-index:1}
+  .topo:has(.menu.aberto)::after{content:"";position:fixed;inset:0;background:rgba(30,22,16,.55);z-index:0}
   .menu a{padding:12px 0;border-bottom:1px solid var(--cacau-linha)}
   .menu .menu-agendar{display:flex;gap:10px;align-items:center;margin-top:18px;border:0;color:var(--ouro-claro)}
   .topo-icones a.redondo{display:none}
