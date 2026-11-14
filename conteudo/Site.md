@@ -10,7 +10,7 @@ instagram:
 oneliv: https://oneliv.com.br/profissional/jessica-domingos-scarpino
 duracao: 50 minutos
 pagamento: Crédito, débito e PIX
-endereco_site: https://www.jessicascarpino.com.br
+endereco_site: https://jessicascarpino.com.br
 descricao_google: Jéssica Domingos Scarpino, psicóloga clínica (CRP 06/217118) em São Paulo. Terapia Cognitivo-Comportamental para adolescentes e adultos: ansiedade, depressão, autoestima, adoecimento e carreira. Presencial e on-line.
 ---
 
