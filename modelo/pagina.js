@@ -31,6 +31,8 @@ const ICONES = {
   espelho: '<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>',
   ampulheta: '<path d="M5 22h14M5 2h14M17 22v-4.2a2 2 0 0 0-.6-1.4L12 12l-4.4 4.4a2 2 0 0 0-.6 1.4V22M7 2v4.2a2 2 0 0 0 .6 1.4L12 12l4.4-4.4a2 2 0 0 0 .6-1.4V2"/>',
   caminho: '<circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/>',
+  wifi: '<path d="M12 20h.01M2 8.8a15 15 0 0 1 20 0M5 12.9a10 10 0 0 1 14 0M8.5 16.4a5 5 0 0 1 7 0"/>',
+  fone: '<path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/>',
   // de uso interno
   instagram: '<rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/>',
   email: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/>',
@@ -407,7 +409,12 @@ ${dominio ? `<meta property="og:url" content="${e(dominio)}/">\n<meta property="
         <div><h3>${inline(ag.agenda_titulo || 'Agende seu horário on-line')}</h3><p>${inline(ag.agenda_texto || '')}</p></div>
         ${s.agenda_pagina ? `<a class="link-acao agenda-fora" href="${e(s.agenda_pagina)}" target="_blank" rel="noopener">${e(ag.agenda_nova_aba || 'Abrir em nova aba')} ${icone('externo')}</a>` : ''}
       </div>
-      <p class="agenda-escolha" hidden><span>${icone('local')} <span class="agenda-escolha-t"></span></span><button type="button" class="link-acao agenda-limpar">Ver todas as unidades</button></p>
+      <p class="agenda-escolha" hidden><span><span class="i-un">${icone('local')}</span><span class="i-on">${icone('video')}</span> <span class="agenda-escolha-t"></span></span><button type="button" class="link-acao agenda-limpar">Ver todas as unidades</button></p>
+      ${d.tele ? `<div class="tele" hidden>
+        <h4>${inline(d.tele.campos.titulo || '')}</h4>
+        ${d.tele.campos.texto ? `<p>${inline(d.tele.campos.texto)}</p>` : ''}
+        <ul>${d.tele.itens.map((x) => `<li><span class="q-ic">${icone(x.icone)}</span><div><strong>${inline(x.titulo)}</strong>${x.paragrafos[0] ? `<span>${x.paragrafos[0]}</span>` : ''}</div></li>`).join('')}</ul>
+      </div>` : ''}
       <div class="agenda-moldura" data-src="${e(s.agenda)}">
         <iframe id="agenda" title="Agenda on-line de ${e(s.nome)}" referrerpolicy="strict-origin-when-cross-origin" allow="clipboard-write"></iframe>
         <p class="agenda-espera"><span class="girando" aria-hidden="true"></span>${e(ag.agenda_carregando || 'Carregando a agenda…')}</p>

@@ -170,6 +170,7 @@ const dados = {
   agendamento: n('Agendamento.md'),
   unidades: lerPasta('Unidades'),
   faq: n('Perguntas frequentes.md'),
+  tele: existsSync(join(CONTEUDO, 'Teleconsulta.md')) ? n('Teleconsulta.md') : null,
 };
 
 const exigir = (nota, campos, arquivo) => { for (const c of campos) if (!nota[c]) throw new Error(`${arquivo}: o campo "${c}" está vazio`); };

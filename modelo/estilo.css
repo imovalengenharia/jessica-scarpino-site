@@ -565,3 +565,19 @@ div.un-sel{cursor:default}
   .hero-foto img{object-position:50% 0}
   .hero-foto::after{background:linear-gradient(180deg,rgba(47,36,27,.55) 0%,rgba(47,36,27,.05) 22%,rgba(47,36,27,.1) 50%,rgba(47,36,27,.8) 76%,var(--cacau) 100%)}
 }
+
+/* orientações da sessão on-line (aparecem quando a pessoa escolhe a teleconsulta) */
+.tele{margin:0 0 16px;padding:22px 24px;border-radius:16px;background:var(--creme);border:1px solid var(--linha)}
+.tele[hidden]{display:none}
+.tele h4{margin:0 0 4px;font:400 1.2rem/1.3 var(--f-titulo)}
+.tele > p{margin:0 0 16px;font-size:.94rem;color:var(--suave)}
+.tele ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px 22px}
+.tele li{display:flex;gap:12px;align-items:flex-start}
+.tele .q-ic{width:40px;height:40px;border-radius:11px;background:#fff}
+.tele .q-ic .ic{width:19px;height:19px}
+.tele strong{display:block;font:500 .95rem/1.35 var(--f-texto)}
+.tele li span:not(.q-ic){display:block;font-size:.87rem;line-height:1.5;color:var(--suave)}
+.agenda-escolha .i-on,.agenda.online .agenda-escolha .i-un{display:none}
+.agenda.online .agenda-escolha .i-on{display:inline}
+.agenda-escolha .i-un,.agenda-escolha .i-on{display:inline-flex}
+.agenda:not(.online) .agenda-escolha .i-on,.agenda.online .agenda-escolha .i-un{display:none}

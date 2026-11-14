@@ -187,8 +187,11 @@
     }
     function escolher(cod, nome) {
       carregar(endereco(cod));
+      var tele = $('.tele', cartao);
+      if (tele) tele.hidden = cod !== 'online';
+      cartao.classList.toggle('online', cod === 'online');
       if (cod) {
-        escolhaTexto.textContent = cod === 'online' ? 'Atendimento on-line' : 'Unidade ' + nome;
+        escolhaTexto.textContent = cod === 'online' ? 'Sessão on-line, por videochamada' : 'Unidade ' + nome;
         escolha.hidden = false;
       } else {
         escolha.hidden = true;

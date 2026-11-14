@@ -105,3 +105,7 @@ O site segue o Código de Ética do Psicólogo. Ao escrever:
 ## Publicação
 
 Não existe botão de publicar. Quando você salva uma nota, o Obsidian envia a mudança sozinho e o site novo entra no ar em 1 a 2 minutos. Se, depois desse tempo, a mudança não aparecer, o mais comum é um campo ter ficado mal escrito (dois-pontos apagados, aspas abertas sem fechar ou uma das linhas de traços removida). Nesse caso, o site continua como estava até a nota ser corrigida.
+
+
+## Teleconsulta
+A nota **Teleconsulta** guarda as orientações que aparecem quando a pessoa escolhe a sessão on-line (aparelho, internet, lugar reservado etc.). Cada `## Título` é uma orientação; a linha `icone:` escolhe o ícone (video, wifi, escudo, fone, relogio).
