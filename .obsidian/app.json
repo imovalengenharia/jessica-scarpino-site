@@ -1,0 +1,6 @@
+{
+  "attachmentFolderPath": "conteudo/Imagens",
+  "newFileFolderPath": "conteudo",
+  "userIgnoreFilters": ["publico/", "modelo/", "node_modules/"],
+  "showFrontmatter": true
+}

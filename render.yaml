@@ -1,0 +1,18 @@
+# Site da Jéssica no Render (Blueprint), como site estático: grátis e sem "dormir".
+# No painel do Render: New → Blueprint → escolher este repositório.
+# Cada push no main (inclusive os que o Obsidian Git faz) publica de novo, sozinho.
+services:
+  - type: web
+    name: jessica-scarpino-site
+    runtime: static
+    branch: main
+    buildCommand: node gerar.js
+    staticPublishPath: ./publico
+    autoDeploy: true
+    headers:
+      - path: /imagens/*
+        name: Cache-Control
+        value: public, max-age=604800
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

@@ -1,0 +1,7 @@
+publico/
+node_modules/
+.DS_Store
+# a configuração pessoal da tela do Obsidian não vai para o repositório
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/

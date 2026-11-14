@@ -1,0 +1,10 @@
+{
+  "name": "jessica-scarpino-site",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "gerar": "node gerar.js",
+    "ver": "node gerar.js && npx --yes serve publico -l 4000"
+  }
+}
