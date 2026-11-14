@@ -137,7 +137,7 @@ button{font:inherit;color:inherit}
 .hero .selo{font-size:12.5px}
 .hero-titulo{display:block;font-size:clamp(2.45rem,4.9vw,4.15rem);line-height:1.1;letter-spacing:-.012em;color:#fff}
 .hero-sub{max-width:540px;margin:26px 0 36px;font-size:1.12rem;color:rgba(255,255,255,.8)}
-.hero-cred{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:36px;font-size:13.5px;color:rgba(255,255,255,.72)}
+.hero-cred{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:36px;font:500 12px/1.6 var(--f-texto);letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.78)}
 .hero-cred li+li:not(:nth-child(2))::before{content:"";display:inline-block;width:1px;height:12px;margin-right:12px;background:rgba(255,255,255,.35);vertical-align:-1px}
 .hero-cred .ponto{width:8px;height:8px;border-radius:50%;background:var(--ouro-claro);animation:pulso 2.4s infinite}
 .hero-retrato{position:relative;justify-self:center;width:min(100%,410px)}
