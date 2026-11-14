@@ -1,28 +1,30 @@
 ---
 selo: Sobre mim
 titulo: Jéssica Domingos Scarpino
-foto: "[[jessica-hospital.webp]]"
-destaque: Quero oferecer a você um espaço seguro, sem julgamentos.
+foto: "[[jessica-sobre.webp]]"
+cracha_titulo: Formação pela USP
+cracha_texto: Psicologia Clínica e Hospitalar
+destaque: "Em quase toda sessão, volto à mesma pergunta: o que passa pela sua cabeça quando isso acontece?"
 ---
 
-Sou psicóloga, especialista em Psicologia Clínica e Hospitalar pela Universidade de São Paulo (USP), com atuação em Terapia Cognitivo-Comportamental.
+Sou psicóloga clínica (CRP 06/217118), com formação em Psicologia Clínica e Hospitalar pela Universidade de São Paulo (USP). Atendo adolescentes e adultos, presencialmente em São Paulo e Santo André ou on-line, e o meu trabalho é fundamentado na Terapia Cognitivo-Comportamental (TCC).
 
-Minha trajetória passou por hospitais, clínicas e Recursos Humanos. Cada contexto ampliou meu olhar sobre o ser humano e sobre os desafios de cada fase da vida.
+Minha trajetória passou por hospitais, clínicas e Recursos Humanos. No hospital, acompanhei pessoas que convivem com doenças crônicas e que vivem o antes e o depois de um transplante. No RH, vi de perto o quanto o trabalho pesa na saúde emocional. Cada um desses lugares ampliou o meu olhar sobre o que as pessoas enfrentam em cada fase da vida.
 
-Acredito em uma Psicologia científica, humanizada e com muito afeto: eu escuto, acolho, proponho reflexões e construo caminhos junto com você.
+Acredito em uma Psicologia científica, humanizada e com muito afeto. Na sessão, eu escuto, acolho, proponho reflexões e construo caminhos junto com você, no seu tempo e com respeito pela sua história.
 
-## Escuta sem julgamentos
+## Escuta sem julgamento
 icone: coracao
-Um espaço seguro para falar do que dói, no seu tempo.
+Um lugar seguro para falar do que pesa, no seu tempo.
 
-## Base científica
+## Método com base científica
 icone: livro
-Terapia Cognitivo-Comportamental, abordagem estruturada e baseada em evidências.
+TCC: uma abordagem estruturada, colaborativa e baseada em evidências.
 
-## Olhar de saúde
+## Olhar de quem veio do hospital
 icone: hospital
-Experiência hospitalar com doenças crônicas e transplantes.
+Experiência com adoecimento, doenças crônicas e transplantes.
 
-## Caminho construído junto
+## Objetivos combinados
 icone: pessoas
-Objetivos definidos com você e revistos ao longo do processo.
+Definidos com você e revistos ao longo do processo.

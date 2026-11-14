@@ -1,17 +1,17 @@
 ---
-selo: Primeiro contato
-titulo: Como funciona o primeiro contato
-subtitulo: Você não precisa saber de antemão qual atendimento procurar. A gente descobre junto.
+selo: Primeiros passos
+titulo: Do primeiro contato à primeira sessão
+lead: Você não precisa chegar com um diagnóstico nem com as palavras certas.
 ---
 
-## Você entra em contato
-Mande uma mensagem pelo WhatsApp contando brevemente o que está acontecendo.
+## Você escolhe por onde começar
+Reserve um horário na agenda on-line, aqui mesmo na página, ou mande uma mensagem pelo WhatsApp. Não é preciso explicar o motivo em detalhes.
 
-## Entendemos sua necessidade
-A partir dessas informações, vemos qual atendimento faz mais sentido.
+## Acertamos os detalhes
+Endereço ou on-line, dia, horário e forma de pagamento: tudo isso se define na agenda. Se ficar alguma dúvida, é só perguntar pelo WhatsApp.
 
-## Combinamos os detalhes
-Você recebe as orientações sobre unidade, horários, valores e funcionamento.
+## A primeira sessão
+Uma conversa para eu conhecer a sua história e entender o que trouxe você. É também a hora de me conhecer e de perguntar o que quiser.
 
-## Começamos o atendimento
-Presencial em São Paulo ou on-line, sempre de forma individualizada.
+## Seguimos com um plano
+Combinamos os objetivos e a frequência das sessões. O plano é revisto sempre que fizer sentido.

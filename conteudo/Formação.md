@@ -1,16 +1,22 @@
 ---
-selo: Formação
-titulo: Formação e experiência
+selo: Formação e experiência
+titulo: "Hospital, clínica e mundo do trabalho: três lugares que me ensinaram a escutar"
+foto: "[[formacao.webp]]"
+assinatura: Jéssica Domingos Scarpino · Psicóloga clínica · CRP 06/217118
 ---
 
 ## Psicologia Clínica e Hospitalar
-Especialização · Universidade de São Paulo (USP)
+icone: capelo
+Formação pela Universidade de São Paulo (USP)
 
 ## Terapia Cognitivo-Comportamental
-Atuação clínica com adolescentes e adultos
+icone: cerebro
+Abordagem que fundamenta o trabalho clínico com adolescentes e adultos
 
-## Psicologia Hospitalar e Transplantes
-Avaliação psicológica e acompanhamento pré e pós-transplante
+## Psicologia hospitalar
+icone: hospital
+Experiência com doenças crônicas e com o acompanhamento antes e depois do transplante
 
 ## Recursos Humanos
-Carreira, relações de trabalho e saúde mental
+icone: maleta
+Experiência com carreira, relações de trabalho e saúde mental
