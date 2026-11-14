@@ -548,3 +548,20 @@ div.un-sel{cursor:default}
   *,*::before,*::after{animation:none!important;transition:none!important}
   .js .rv{opacity:1}
 }
+
+/* ---------- hero com a foto ao fundo (pedido do dono, 14/11/2026): a foto se funde ao fundo escuro ---------- */
+.hero-in{position:static;grid-template-columns:1fr}
+.hero-texto{position:relative;z-index:1;max-width:620px}
+.hero-retrato{position:absolute;inset:0 0 0 auto;width:54%;max-width:none;justify-self:auto;margin:0;order:0}
+.js .hero-retrato.rv.vis{animation-name:g-abre;animation-duration:1.4s}
+.hero-foto{position:absolute;inset:0;aspect-ratio:auto;border-radius:0;box-shadow:none;background:var(--cacau)}
+.hero-foto img{object-position:50% 22%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--cacau) 0%,rgba(47,36,27,.74) 14%,rgba(47,36,27,.12) 42%,transparent 60%),linear-gradient(0deg,rgba(47,36,27,.7) 0%,transparent 34%)}
+.hero-arco,.hero-anel,.hero .cracha{display:none}
+.hero-curva{z-index:1}
+@media (max-width:900px){
+  .hero{min-height:0;align-items:flex-end;padding:44svh 0 52px}
+  .hero-retrato{inset:0 0 auto;width:100%;height:66svh;margin:0}
+  .hero-foto img{object-position:50% 0}
+  .hero-foto::after{background:linear-gradient(180deg,rgba(47,36,27,.55) 0%,rgba(47,36,27,.05) 22%,rgba(47,36,27,.1) 50%,rgba(47,36,27,.8) 76%,var(--cacau) 100%)}
+}
