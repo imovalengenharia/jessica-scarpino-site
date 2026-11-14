@@ -2,7 +2,7 @@
 
 Site estático de uma página. Conteúdo em notas do Obsidian (`conteudo/`), visual em
 `modelo/`, gerador sem dependências em `gerar.js` → `publico/` (fora do git).
-Publicação: push no `main` → Render (render.yaml) gera e publica.
+Publicação: push no `main` → GitHub Actions (`.github/workflows/publicar.yml`) gera e publica no GitHub Pages.
 
 ## Regras
 - **Texto muda nas notas, nunca no modelo.** Se um texto novo não cabe em nenhuma nota,
@@ -20,4 +20,6 @@ Publicação: push no `main` → Render (render.yaml) gera e publica.
   na página.
 - Identidade: cacau/champanhe/dourado; Cinzel (selos), Cormorant Garamond (títulos),
   Jost (texto). Logo JS em `conteudo/Imagens/logo.*`.
+- Não citar a rede de coworking (Livance) no site (o dono, 14/11/2026); as fotos das salas vêm do Drive dela.
 - Escreva em português do Brasil, com acentos.
+- Registre cada pedido em uma linha de `Registro.md` (data, o que mudou), para o dono ler no Obsidian.

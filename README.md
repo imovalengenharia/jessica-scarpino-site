@@ -12,10 +12,9 @@ gerar.js       ← lê conteudo/ + modelo/ e escreve o site em publico/
 
 1. Edita uma nota em `conteudo/` (no Obsidian, ou pedindo ao Claude).
 2. O Obsidian Git (ou o Claude) envia a mudança para o `main` no GitHub.
-3. O Render roda `node gerar.js` e publica a pasta `publico/` — em 1 a 2 minutos.
-
-O GitHub Actions (`verificar`) também gera o site a cada mudança e avisa se algo
-estiver errado numa nota.
+3. O GitHub (Actions → `publicar`) roda `node gerar.js` e publica a pasta `publico/` no
+   GitHub Pages — em 1 a 2 minutos. Se uma nota tiver erro, ele avisa por e-mail e o
+   site no ar continua o anterior.
 
 ## Obsidian
 
@@ -32,10 +31,9 @@ npx serve publico    # abre em http://localhost:3000
 
 Requer Node 22. Sem dependências.
 
-## Publicar pela primeira vez (Render)
+## Domínio próprio (quando houver)
 
-1. render.com → **New → Blueprint** → escolha este repositório → **Apply**.
-2. O site fica em `https://jessica-scarpino-site.onrender.com`.
-3. Domínio próprio: no serviço → **Settings → Custom Domains** → adicione o domínio e crie
-   no DNS o registro que o Render mostrar. Depois, ponha o endereço em
-   `conteudo/Site.md` → `endereco_site` (Google e compartilhamentos usam).
+1. GitHub → repositório → **Settings → Pages → Custom domain** → digite o domínio.
+2. No DNS do domínio, crie os registros que o GitHub mostrar (A para o domínio, CNAME para o www).
+3. Crie na raiz um arquivo `CNAME` com o domínio (o gerador copia) e ponha o endereço em
+   `conteudo/Site.md` → `endereco_site`.

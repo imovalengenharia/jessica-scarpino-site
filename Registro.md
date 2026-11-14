@@ -1,0 +1,6 @@
+# Registro
+
+O que foi feito no site, pedido a pedido.
+
+- **14/11/2026** — Primeira versão do site: estrutura inspirada no site de referência, identidade visual da Jéssica (logo JS, cacau e dourado), 4 atendimentos, 6 unidades com fotos, mapa, agenda on-line da OneLiv, perguntas frequentes e WhatsApp. Conteúdo editável pelas notas de `conteudo/` no Obsidian.
+- **14/11/2026** — Publicação pelo GitHub Pages (cada mudança no main vai ao ar sozinha). CRP confirmado: 06/217118. Tirado o nome da rede de coworking do site. E-mail, Instagram e domínio ficam para depois.
