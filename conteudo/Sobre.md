@@ -9,9 +9,15 @@ destaque: "Acredito em uma Psicologia científica, humanizada e com muito afeto.
 
 Sou psicóloga clínica (CRP 06/217118), com formação em Psicologia Clínica e Hospitalar pela Universidade de São Paulo (USP). Atendo adolescentes e adultos, presencialmente em São Paulo e Santo André ou on-line, e o meu trabalho é fundamentado na Terapia Cognitivo-Comportamental (TCC).
 
-Minha trajetória passou por hospitais, clínicas e Recursos Humanos. No hospital, acompanhei pessoas que convivem com doenças crônicas e que vivem o antes e o depois de um transplante. No RH, vi de perto o quanto o trabalho pesa na saúde emocional. Cada um desses lugares ampliou o meu olhar sobre o que as pessoas enfrentam em cada fase da vida.
+Minha trajetória profissional passou por hospitais, clínicas e Recursos Humanos. Ao longo de aproximadamente 15 anos na área da saúde, acompanhei pessoas que convivem com doenças crônicas, enfrentam tratamentos prolongados e vivenciam os desafios da espera, da preparação e do pós-transplante.
 
-Cada processo acontece no seu tempo e com respeito pela sua história.
+Nesse percurso, pude perceber que o adoecimento não acontece apenas no corpo. Ele também transforma a rotina, os relacionamentos, os planos e a maneira como cada pessoa enxerga a própria vida. O medo, as incertezas e as mudanças que acompanham esses processos merecem ser acolhidos e compreendidos.
+
+Minha experiência em Recursos Humanos também ampliou meu olhar para os impactos das relações de trabalho na saúde emocional e para os desafios que atravessam a vida profissional.
+
+Cada uma dessas experiências contribuiu para a psicóloga que sou hoje.
+
+Meu propósito é oferecer um espaço de escuta, acolhimento e cuidado, para que você possa compreender o que está vivendo, desenvolver recursos para lidar com suas dificuldades e construir novas possibilidades para sua vida.
 
 ## Escuta sem julgamento
 icone: coracao
