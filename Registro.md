@@ -11,3 +11,4 @@ O que foi feito no site, pedido a pedido.
 - **14/11/2026** — Teleconsulta: ao escolher a sessão on-line, a agenda abre sem endereço e mostra orientações (aparelho, internet, lugar reservado, fones, chegar antes). Texto na nota Teleconsulta.
 - **14/11/2026** — Textos pedidos pelo dono: primeira tela voltou a "Um espaço de escuta, acolhimento e transformação." com "Saúde mental, Qualidade de vida, Equilíbrio"; frase de destaque do Sobre passou a "Acredito em uma Psicologia científica, humanizada e com muito afeto…".
 - **15/11/2026** — Texto do "Sobre mim" trocado pelo texto enviado pelo dono (trajetória de cerca de 15 anos na saúde).
+- **15/11/2026** — Retirada a frase de fechamento do bloco "Para quem é" ("Pode ser também que o motivo seja outra pessoa…"), a pedido do dono.

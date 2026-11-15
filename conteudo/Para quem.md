@@ -1,7 +1,7 @@
 ---
 selo: Para quem é
 titulo: Você se reconhece em algum destes momentos?
-fechamento: "Pode ser também que o motivo seja outra pessoa: um filho ou uma filha adolescente que mudou de jeito nos últimos tempos. Seja qual for o caso, não é preciso ter tudo claro para começar."
+fechamento:
 ---
 
 ## Ansiedade
